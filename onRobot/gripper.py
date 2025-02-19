@@ -51,7 +51,7 @@ class VG10:
         response = buffer.getvalue()
 
         # Print the response
-        print(response.decode('utf-8'))
+        # print(response.decode('utf-8'))
 
         # Close the cURL object
         curl.close()
@@ -100,7 +100,7 @@ class VG10:
         response = buffer.getvalue()
 
         # Print the response
-        print(response.decode('utf-8'))
+        # print(response.decode('utf-8'))
 
         # Close the cURL object
         curl.close()
@@ -144,7 +144,7 @@ class RG2:
         response = buffer.getvalue()
 
         # Print the response
-        print(response.decode('utf-8'))
+        # print(response.decode('utf-8'))
 
         # Close the cURL object
         curl.close()
@@ -207,7 +207,7 @@ class RG2:
         response = buffer.getvalue()
 
         # Print the response
-        print(response.decode('utf-8'))
+        # print(response.decode('utf-8'))
 
         # Close the cURL object
         curl.close()
